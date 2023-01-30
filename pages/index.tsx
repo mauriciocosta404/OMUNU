@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import React from 'react'
+import Banner from '../src/components/banner'
 import Header from '../src/components/header/header'
 
 const Home: NextPage = () => {
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
         </title>
       </Head>
       <Header avatarInfo={true} searchInput={true}/>
+      <Banner/>
    </React.Fragment>
   )
 }
