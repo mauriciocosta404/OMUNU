@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           OMUNU
         </title>
       </Head>
-      <Header avatarInfo={true} searchInput={true}/>
+      <Header avatarInfo={false} searchInput={true}/>
       <Banner/>
    </React.Fragment>
   )
