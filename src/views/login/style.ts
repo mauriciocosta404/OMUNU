@@ -26,7 +26,12 @@ export const Form=styled.form`
 `;
 
 export const Title=styled.h2`
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#385A64 ;
 `;
 
 export const BorderContainer=styled.div`

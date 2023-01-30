@@ -4,6 +4,7 @@ import Logo from '../../components/logo';
 import Image from 'next/image'
 import Input from '../../components/input';
 import { socialMediaMock } from './mock';
+import light from '../../assets/images/light.png';
 
 const Login=()=>{
     return(
@@ -13,7 +14,7 @@ const Login=()=>{
             </S.BollTopContainer>
 
             <S.Form>
-                <S.Title>Login</S.Title>
+                <S.Title>L<Image src={light} width={70} height={70} alt='lampada' />GIN</S.Title>
                 <Input type='text' placeholder='Email'/>
                 <Input type='password' placeholder='password'/>
                 <Button type='submit' children='Entrar' />
