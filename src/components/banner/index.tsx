@@ -7,6 +7,7 @@ const Banner=()=>{
         <S.MainContainer>
             <S.Container>
                 <S.BollTopContainer/>
+                <S.BollBottomContainer/>
                 <Image width={550} height={500} src={peopleReadding} alt='readding'/>
                 <S.ButtonsContainer>
                     <S.Button color='#385A64'>Entrar</S.Button>

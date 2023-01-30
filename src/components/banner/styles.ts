@@ -5,7 +5,7 @@ interface ButtonProps{
 }
 
 export const MainContainer =styled.div`
-    padding-left:3rem ;
+    padding-left:7rem ;
 `;
 
 export const Container = styled.div`
@@ -36,6 +36,15 @@ export const BollTopContainer=styled.div`
     align-items: center;
     justify-content: center;
     background-color: #385A64;
+    width: 30rem; height: 30rem;
+    border-radius: 50%;
+`;
+
+
+export const BollBottomContainer=styled.div`
+    position: absolute;
+    left:70rem;top: 15rem;
+    background-color: #FFC801;
     width: 30rem; height: 30rem;
     border-radius: 50%;
 `;
