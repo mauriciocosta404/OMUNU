@@ -5,7 +5,7 @@ import lightBook from '../../assets/images/lampadaBook.png'
 const Logo=()=>{
     return(
         <S.Container>
-            <Image src={lightBook} alt="book"/>
+            <Image src={lightBook} width={50} height={50} alt="book"/>
             <h2>OMUNU</h2>
         </S.Container>
     )
