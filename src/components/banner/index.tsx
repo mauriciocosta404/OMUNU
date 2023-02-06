@@ -6,13 +6,8 @@ const Banner=()=>{
     return(
         <S.MainContainer>
             <S.Container>
-                <S.BollTopContainer>
-                    <h1>Livro Digital Infantil</h1>
-                    <p>Melhor site para estimular o cérebro do seu filho</p>
-                    <h2>EXPERIÊNCIA INTELIGENTE</h2>
-                </S.BollTopContainer>
                 <S.BollBottomContainer/>
-                <Image width={550} height={500} src={peopleReadding} alt='readding'/>
+                <Image width={300} height={480} src={peopleReadding} alt='readding'/>
                 <S.ButtonsContainer>
                     <S.Button color='#385A64'>Entrar</S.Button>
                     <S.Button color='#FFC801'>Criar Conta</S.Button>
