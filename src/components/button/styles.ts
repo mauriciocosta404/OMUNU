@@ -6,6 +6,6 @@ export const Container=styled.button`
     color: #fff;
     font-size: 1rem;
     padding: 1rem 3rem;
-    width: 20rem;
+    width: 23rem;
     border-radius:.9rem ;          
 `;

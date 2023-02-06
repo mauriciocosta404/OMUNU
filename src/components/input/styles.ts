@@ -6,6 +6,6 @@ export const Container=styled.input`
     margin-top: 2rem;
     font-size: 1rem;
     padding: 1rem ;
-    width: 20rem;
+    width: 23rem;
     border-radius:.9rem ;
 `;
