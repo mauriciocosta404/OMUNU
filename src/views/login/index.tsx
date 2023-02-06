@@ -3,7 +3,7 @@ import Button from '../../components/button/button';
 import Logo from '../../components/logo';
 import Image from 'next/image'
 import Input from '../../components/input';
-import { socialMediaMock } from './mock';
+import { socialMediaMock } from '../../mock/mock';
 import light from '../../assets/images/light.png';
 
 const Login=()=>{
