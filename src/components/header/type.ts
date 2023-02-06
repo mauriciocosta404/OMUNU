@@ -1,4 +1,5 @@
 export type HeaderProps={
     avatarInfo: boolean,
-    searchInput:boolean
+    searchInput:boolean,
+    bollTop: boolean
 }

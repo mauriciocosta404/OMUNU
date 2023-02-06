@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const MainContainer=styled.div`
+    max-height: 5rem;
     border-bottom: 1px solid #CFCFCF;
     padding: 1rem;
     color: #385A64;
@@ -40,5 +41,32 @@ export const SearchInputContainer=styled.div`
         flex:1;
         background-color: transparent;
         border:none;
+    }
+`;
+
+export const BollTopContainer=styled.div`
+    position: relative;
+    left: 5rem;top:5rem;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #385A64;
+    width: 30rem; height: 30rem;
+    border-radius: 50%;
+
+    h1{
+        color: #FFF;
+        font-size: 3rem;
+    }
+    p{
+        color: #C8C8C8;
+        font-size: 1.1rem;
+        max-width: 20rem;
+    }
+    h2{
+        color: #C8C8C8;
+        font-size: 2rem;
     }
 `;
