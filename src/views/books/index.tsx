@@ -12,6 +12,8 @@ const Books=()=>{
             bollTop={false} 
             />
 
+            <h2>Procurar Categoria</h2>
+
             <BookCategory title='Manuais de apoio escolar' Icon={<FaBookOpen/>}/>
         </S.Container>
     )
