@@ -9,7 +9,9 @@ const BookCategory:React.FC<BookCategoryType> =({
     return(
         <S.Container>
             <span>{title}</span>
-            {Icon}
+            <S.IconContainer>
+                {Icon}
+            </S.IconContainer>
         </S.Container>
     )
 }

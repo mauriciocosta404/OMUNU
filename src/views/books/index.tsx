@@ -1,7 +1,7 @@
 import BookCategory from '../../components/bookCategory'
 import Header from '../../components/header/header'
 import * as S from './styles'
-import { FaBook } from 'react-icons/fa'
+import { FaBookOpen } from 'react-icons/fa'
 
 const Books=()=>{
     return(
@@ -12,7 +12,7 @@ const Books=()=>{
             bollTop={false} 
             />
 
-            <BookCategory title='Manuais de apoio escolar' Icon={<FaBook/>}/>
+            <BookCategory title='Manuais de apoio escolar' Icon={<FaBookOpen/>}/>
         </S.Container>
     )
 }
