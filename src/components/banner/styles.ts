@@ -31,13 +31,29 @@ export const Button = styled.button`
 
 export const BollTopContainer=styled.div`
     position: absolute;
-    bottom:20rem;left: 60rem;
+    bottom:18rem;left: 60rem;
+    padding: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: #385A64;
     width: 30rem; height: 30rem;
     border-radius: 50%;
+
+    h1{
+        color: #FFF;
+        font-size: 3rem;
+    }
+    p{
+        color: #C8C8C8;
+        font-size: 1.1rem;
+        max-width: 20rem;
+    }
+    h2{
+        color: #C8C8C8;
+        font-size: 2rem;
+    }
 `;
 
 
@@ -47,4 +63,9 @@ export const BollBottomContainer=styled.div`
     background-color: #FFC801;
     width: 30rem; height: 30rem;
     border-radius: 50%;
+`;
+
+export const Footer=styled.footer`
+    width: 100vw;
+    text-align: center;
 `;
