@@ -1,7 +1,7 @@
 import BookCategory from '../../components/bookCategory'
 import Header from '../../components/header/header'
 import * as S from './styles'
-import { FaBookOpen } from 'react-icons/fa'
+import { booksCategoryMock } from '../../mock/booksCategoryMock'
 
 const Books=()=>{
     return(
@@ -13,8 +13,13 @@ const Books=()=>{
             />
 
             <h2>Procurar Categoria</h2>
-
-            <BookCategory title='Manuais de apoio escolar' Icon={<FaBookOpen/>}/>
+             <S.Books>    
+                {
+                    booksCategoryMock.map(({title,IconCategory},key)=>
+                        <BookCategory key={key} title={title} Icon={<IconCategory/>}/>
+                    )
+                }
+            </S.Books>   
         </S.Container>
     )
 }
