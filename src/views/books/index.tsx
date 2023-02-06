@@ -12,14 +12,22 @@ const Books=()=>{
             bollTop={false} 
             />
 
-            <h2>Procurar Categoria</h2>
-             <S.Books>    
-                {
-                    booksCategoryMock.map(({title,IconCategory},key)=>
-                        <BookCategory key={key} title={title} Icon={<IconCategory/>}/>
-                    )
-                }
-            </S.Books>   
+            <S.Wrapper>
+                <S.BollTopContainer/>
+
+                <S.BooksContainer>
+                    <h2>Procurar Categoria</h2>
+                    <S.Books>    
+                        {
+                            booksCategoryMock.map(({title,IconCategory},key)=>
+                                <BookCategory key={key} title={title} Icon={<IconCategory/>}/>
+                            )
+                        }
+                    </S.Books>   
+                </S.BooksContainer>
+
+                <S.BollBottomContainer/>
+            </S.Wrapper>
         </S.Container>
     )
 }
