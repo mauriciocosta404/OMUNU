@@ -19,7 +19,7 @@ const About=()=>{
                     na educação infantil, com a finalmente de criar crianças com incentivo de 
                     inovação no processo da educação.
                 </S.Description>
-                <Image src={aboutImage} alt=''/>
+                <Image src={aboutImage} height={2000} width={2000} alt=''/>
             </S.Content>
             <S.BollBottomContainer/>
         </S.Container>

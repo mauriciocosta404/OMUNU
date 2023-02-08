@@ -15,11 +15,15 @@ export const Title=styled.h2`
 `;
 
 export const Content=styled.div`
+    position: absolute;
+    top:50%;left:50%;
+    transform: translate(-50%,-50%);
     display:flex;
     align-items: center;
     border: 1px solid #CFCECE;
     border-radius: 1rem;
-    
+    width: 60rem;height: 25rem;
+    padding: 2rem;
 `;
 
 export const BollTopContainer=styled.div`
@@ -32,7 +36,7 @@ export const BollTopContainer=styled.div`
 
 export const BollBottomContainer=styled.div`
     position: relative;
-    top: 1rem;right:7rem;
+    top: 20rem;right:7rem;
     width: 30rem; height: 30rem;
     border-radius: 50%;
     background-color: #385A64;
@@ -40,4 +44,6 @@ export const BollBottomContainer=styled.div`
 
 export const Description=styled.p`
     color:#385A64;
+    font-size: 1.5rem;
+    text-align: justify;
 `;
