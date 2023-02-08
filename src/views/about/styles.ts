@@ -11,6 +11,7 @@ export const Header=styled.header`
 `
 
 export const Title=styled.h2`
+    font-size: 3rem;
     color:#385A64;
 `;
 
