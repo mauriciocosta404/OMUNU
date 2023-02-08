@@ -6,10 +6,11 @@ import aboutImage from '../../assets/images/about.png'
 const About=()=>{
     return(
         <S.Container>
-            <Logo/>
-            <S.Title>
-                Sobre
-            </S.Title>
+            <S.Header>
+                <Logo/>
+                <S.BollTopContainer/>
+            </S.Header>
+            <S.Title>Sobre</S.Title>
             <S.Content>
                 <S.Description>
                     Entra na onda e descobre a magia infantil com frases e livros para alunos 
@@ -20,6 +21,7 @@ const About=()=>{
                 </S.Description>
                 <Image src={aboutImage} alt=''/>
             </S.Content>
+            <S.BollBottomContainer/>
         </S.Container>
     )
 }
